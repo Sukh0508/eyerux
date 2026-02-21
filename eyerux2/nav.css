@@ -1,0 +1,27 @@
+/* navbar.css - Aapka diya hua CSS yahan copy karein */
+.navbar {
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  background: #b22234;
+  padding: 1.2rem 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99999;
+  position: absolute;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.logo {
+  background-image: url("./image/logo.jpeg");
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+}
+
+
+/* Aapka baaki CSS yahan... */
